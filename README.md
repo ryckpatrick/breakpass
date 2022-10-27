@@ -14,7 +14,9 @@ list volume
 exit
 ~~~
 
+
 Agora referenciar a letra do onde está instalado o Windows para acessar os diretórios.
+
 
 ~~~bash
 C:
@@ -24,10 +26,10 @@ cd system32
 
 Utilizaremos o comando ren e copy para fazer as alterações na facilidade de acesso da tela de bloqueio.
 
-Acessando a pasta system32 pelos comandos informados vamos substituir o utilman com o comando 
+Acessando a pasta system32 pelos comandos informados vamos substituir o utilman com o comando
 
 ~~~bash
-ren utilman.exe utilmanoriginal.exe. 
+ren utilman.exe utilmanoriginal.exe.
 ~~~
 
 Agora vamos copiar o cmd e renomear utilizando o seguinte comando
@@ -65,3 +67,5 @@ Agora vamos renomear o atalho da facilidade de acesso original de volta.
 ~~~bash
 ren utilmanoriginal.exe utilman.exe
 ~~~
+
+Fim do processo.
